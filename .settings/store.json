@@ -1,0 +1,174 @@
+{
+  "screenshotShortcut": "CommandOrControl+Shift+S",
+  "apiKey": "sk-chitggzxwhkraqnkrcjofqdgjzxybojzprjighbwkmgmecec",
+  "lastSettingPage": "ai",
+  "useImageRepo": true,
+  "aiType": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "apiKey-deepseek": "sk-be4d6c4eb84d471087de812d7cc1eafc",
+  "model-chatgpt": "gpt-4o-mini",
+  "placeholderModel": "",
+  "markDescModel": "",
+  "githubImageUsername": "jia707409741",
+  "version": "0.19.1",
+  "giteeAccessToken": "",
+  "currentAi": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "baseURL-chatanywhere": "https://api.chatanywhere.tech/v1",
+  "darkMode": "system",
+  "topP": 0.1,
+  "model": "deepseek-ai/DeepSeek-V3",
+  "promptList": [
+    {
+      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
+      "id": "0",
+      "isDefault": true,
+      "title": "写作助手"
+    }
+  ],
+  "model-deepseek": "deepseek-chat",
+  "githubImageAccessToken": "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",
+  "isVectorDbEnabled": false,
+  "language": "简体中文",
+  "rerankingModel": "",
+  "apiKey-chatgpt": "sk-ZbTq3ILYVL2bx8W_B-bhtpDrMSwbOEiyIvyj9sWUdn2g7GML4xeOh6f_AVE",
+  "mainImageHosting": "github",
+  "baseURL": "https://api.siliconflow.cn/v1/",
+  "baseURL-chatgpt": "https://api.uniapi.io",
+  "baseURL-moonshot": "https://api.moonshot.cn/v1",
+  "window-pin": "Control+Shift+P",
+  "baseURL-deepseek": "https://api.deepseek.com",
+  "autoUpdate": true,
+  "assetsPath": "assets",
+  "collapsibleList": [
+    "摄影",
+    "随笔"
+  ],
+  "shotcut-text": "Control+Shift+T",
+  "markDescGen": false,
+  "chatLanguage": "中文",
+  "githubUsername": "jia707409741",
+  "embeddingModel": "",
+  "temperature": 0.7,
+  "activeFilePath": "随笔/1111.md",
+  "aiTitle": "",
+  "currentPromptId": "0",
+  "tesseractList": "eng,chi_sim",
+  "codeTheme": "github",
+  "giteeAutoSync": true,
+  "baseURL-custom": "https://api.uniapi.io",
+  "accessToken": "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",
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "全部",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "近一周",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "primaryBackupMethod": "github",
+  "primaryModel": "",
+  "currentTagId": 1,
+  "currentPage": "/core/article",
+  "toolbarState": true,
+  "autoSync": true,
+  "aiModelList": [
+    {
+      "baseURL": "https://api.openai.com/v1",
+      "key": "chatgpt",
+      "model": "",
+      "modelURL": "https://api.openai.com/v1/models",
+      "temperature": 0.7,
+      "title": "ChatGPT",
+      "type": "built-in"
+    },
+    {
+      "baseURL": "https://generativelanguage.googleapis.com/v1beta",
+      "key": "gemini",
+      "temperature": 0.7,
+      "title": "Gemini",
+      "type": "built-in"
+    },
+    {
+      "baseURL": "http://localhost:11434",
+      "key": "ollama",
+      "modelURL": "http://localhost:11434/v1/models",
+      "temperature": 0.7,
+      "title": "Ollama",
+      "type": "built-in"
+    },
+    {
+      "baseURL": "http://localhost:1234/v1",
+      "key": "lmstudio",
+      "modelURL": "http://localhost:1234/v1/models",
+      "temperature": 0.7,
+      "title": "LM Studio",
+      "type": "built-in"
+    },
+    {
+      "apiKey": "sk-be4d6c4eb84d471087de812d7cc1eafc",
+      "baseURL": "https://api.deepseek.com",
+      "key": "deepseek",
+      "model": "deepseek-chat",
+      "modelURL": "https://api.deepseek.com/models",
+      "temperature": 0.7,
+      "title": "DeepSeek",
+      "type": "built-in"
+    },
+    {
+      "apiKey": "sk-ZbTq3ILYVL2bx8W_B-bhtpDrMSwbOEiyIvyj9sWUdn2g7GML4xeOh6f_AVE",
+      "baseURL": "https://api.uniapi.io/v1",
+      "key": "3e4b67de-d627-44c1-8e0e-f1cb2ab9433c",
+      "model": "gpt-4o-mini",
+      "temperature": 0.7,
+      "title": "uniApi",
+      "type": "custom"
+    },
+    {
+      "apiKey": "sk-chitggzxwhkraqnkrcjofqdgjzxybojzprjighbwkmgmecec",
+      "baseURL": "https://api.siliconflow.cn/v1/",
+      "key": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+      "model": "deepseek-ai/DeepSeek-V3",
+      "temperature": 0.7,
+      "title": "硅基流动",
+      "type": "custom"
+    },
+    {
+      "baseURL": "https://api.x.ai/v1",
+      "key": "grok",
+      "temperature": 0.7,
+      "title": "Grok",
+      "topP": 1,
+      "type": "built-in"
+    },
+    {
+      "baseURL": "https://openrouter.ai/api/v1",
+      "key": "openrouter",
+      "temperature": 0.7,
+      "title": "OpenRouter",
+      "topP": 1,
+      "type": "built-in"
+    },
+    {
+      "baseURL": "https://api.siliconflow.cn/v1",
+      "key": "siliconflow",
+      "temperature": 0.7,
+      "title": "SiliconFlow",
+      "topP": 1,
+      "type": "built-in"
+    }
+  ],
+  "model-custom": "gpt-4o-mini",
+  "shotcut-screenshot": "Control+Shift+S",
+  "workspacePath": "",
+  "apiKey-custom": "sk-ZbTq3ILYVL2bx8W_B-bhtpDrMSwbOEiyIvyj9sWUdn2g7GML4xeOh6f_AVE",
+  "previewTheme": "github",
+  "jsdelivr": true,
+  "translateModel": ""
+}
