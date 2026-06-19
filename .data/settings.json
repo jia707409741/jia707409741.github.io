@@ -1,12 +1,57 @@
 {
-  "speechToTextMode": "auto",
-  "githubCustomImageRepo": "",
-  "fileManagerTextSize": "sm",
-  "keepLatestCount": 4,
-  "currentPromptId": "0",
+  "codeTheme": "github",
+  "shotcut-text": "Control+Shift+T",
+  "baseURL": "https://api.siliconflow.cn/v1/",
+  "isVectorDbEnabled": false,
+  "note_locale": "中文",
+  "giteaInstanceType": "gitea.com",
+  "recordTextSize": "sm",
+  "baseURL-moonshot": "https://api.moonshot.cn/v1",
+  "markDescModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "condenseMaxLength": 100,
   "rerankingModel": "",
+  "imageMethodModel": "note-gen-vlm",
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "全部",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "近一周",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "tesseractList": "eng,chi_sim",
+  "aiTitle": "",
+  "globalSearchFilter": "all",
+  "sttModel": "",
+  "collapsibleList": [
+    "转载",
+    "随笔",
+    "",
+    "三体二",
+    "三体二/宣发肃降"
+  ],
+  "autoPullOnSwitch": true,
+  "topP": 0.1,
+  "audioModel": "",
+  "gitlabInstanceType": "gitlab.com",
+  "screenshotShortcut": "CommandOrControl+Shift+S",
+  "fileManagerTextSize": "sm",
+  "githubUsername": "jia707409741",
+  "primaryImageMethod": "ocr",
   "giteaAutoSync": "disabled",
-  "model": "deepseek-ai/DeepSeek-V3",
+  "lastSettingPage": "general",
+  "showEditorUndoRedo": true,
+  "mainImageHosting": "github",
+  "language": "简体中文",
+  "shotcut-screenshot": "Control+Shift+S",
   "recordToolbarConfig": [
     {
       "enabled": true,
@@ -44,22 +89,181 @@
       "order": 6
     }
   ],
-  "shortcuts": [
+  "currentTagId": 1,
+  "autoPullOnOpen": true,
+  "giteaCustomSyncRepo": "",
+  "currentPromptId": "0",
+  "githubImageUsername": "jia707409741",
+  "autoSync": true,
+  "version": "0.29.0",
+  "gitlabCustomUrl": "",
+  "primaryModel": "note-gen-chat",
+  "chatLanguage": "中文",
+  "translatePrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "gitlabCustomSyncRepo": "",
+  "textToSpeechMode": "auto",
+  "gitlabUsername": "",
+  "embeddingModel": "note-gen-embedding",
+  "translateModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "model-custom": "gpt-4o-mini",
+  "keepLatestCount": 4,
+  "giteaUsername": "",
+  "speechToTextMode": "auto",
+  "noteGenDefaultModelsCache": {
+    "content": {
+      "models": [
+        {
+          "enableStream": true,
+          "id": "note-gen-chat",
+          "model": "Qwen/Qwen3-8B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "id": "note-gen-embedding",
+          "model": "BAAI/bge-m3",
+          "modelType": "embedding"
+        },
+        {
+          "id": "note-gen-vlm",
+          "model": "THUDM/GLM-4.1V-9B-Thinking",
+          "modelType": "chat"
+        }
+      ]
+    },
+    "fetchedAt": "2026-06-13T15:25:34.813Z",
+    "versionCode": 102,
+    "versionName": "1.0.2"
+  },
+  "useImageRepo": true,
+  "model-chatgpt": "gpt-4o-mini",
+  "window-pin": "Control+Shift+P",
+  "openTabs": [],
+  "jsdelivr": true,
+  "currentPage": "/core/main",
+  "baseURL-custom": "https://api.uniapi.io",
+  "lastSyncTimes": {
+    "随笔/从幼儿的血铅中毒到反思中国媒体已死透.md": 1781364515746
+  },
+  "activeTabId": "",
+  "model-deepseek": "deepseek-chat",
+  "customThemeColors": {
+    "dark": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    },
+    "light": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    }
+  },
+  "recordViewMode": "list",
+  "chatToolbarConfigMobile": [
     {
-      "key": "openWindow",
-      "value": "CommandOrControl+Shift+W"
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
     },
     {
-      "key": "quickRecordText",
-      "value": "CommandOrControl+Shift+T"
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "newChat",
+      "order": 5
     }
   ],
-  "language": "简体中文",
-  "baseURL-custom": "https://api.uniapi.io",
-  "giteeAutoSync": true,
-  "gitlabAutoSync": "disabled",
-  "markDescModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "giteeCustomSyncRepo": "",
+  "model": "deepseek-ai/DeepSeek-V3",
   "darkMode": "system",
+  "baseURL-chatanywhere": "https://api.chatanywhere.tech/v1",
+  "commitModel": "note-gen-chat",
+  "activeFilePath": "",
+  "enableImageRecognition": true,
+  "githubCustomSyncRepo": "",
+  "giteeAutoSync": true,
+  "chatToolbarConfigPc": [
+    {
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "newChat",
+      "order": 5
+    }
+  ],
+  "aiType": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "completionModel": "note-gen-chat",
+  "giteaCustomUrl": "",
+  "baseURL-chatgpt": "https://api.uniapi.io",
   "providerTemplatesCache": {
     "content": {
       "providers": [
@@ -184,120 +388,22 @@
     "versionCode": 103,
     "versionName": "1.0.3"
   },
-  "gitlabUsername": "",
-  "giteaCustomUrl": "",
-  "sttModel": "",
-  "chatToolbarConfigMobile": [
+  "gitlabAutoSync": "disabled",
+  "shortcuts": [
     {
-      "enabled": true,
-      "id": "modelSelect",
-      "order": 0
+      "key": "openWindow",
+      "value": "CommandOrControl+Shift+W"
     },
     {
-      "enabled": true,
-      "id": "promptSelect",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "mcpButton",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "ragSwitch",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "clipboardMonitor",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "newChat",
-      "order": 5
+      "key": "quickRecordText",
+      "value": "CommandOrControl+Shift+T"
     }
   ],
-  "collapsibleList": [
-    "转载",
-    "随笔",
-    "",
-    "三体二",
-    "三体二/宣发肃降"
-  ],
-  "aiTitle": "",
-  "placeholderModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
-  "activeTabId": "1781364332940-5xdauz08z",
-  "autoSync": true,
-  "model-custom": "gpt-4o-mini",
-  "templateList": [
-    {
-      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
-      "id": "0",
-      "range": "全部",
-      "status": true,
-      "title": "笔记"
-    },
-    {
-      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
-      "id": "1",
-      "range": "近一周",
-      "status": true,
-      "title": "周报"
-    }
-  ],
-  "imageMethodModel": "note-gen-vlm",
-  "currentPage": "/core/main",
-  "lastSettingPage": "about",
-  "mainImageHosting": "github",
-  "globalSearchFilter": "all",
-  "jsdelivr": true,
-  "giteaInstanceType": "gitea.com",
-  "model-deepseek": "deepseek-chat",
-  "note_locale": "中文",
-  "baseURL-deepseek": "https://api.deepseek.com",
-  "openTabs": [],
-  "noteGenDefaultModelsCache": {
-    "content": {
-      "models": [
-        {
-          "enableStream": true,
-          "id": "note-gen-chat",
-          "model": "Qwen/Qwen3-8B",
-          "modelType": "chat",
-          "temperature": 0.7,
-          "topP": 1
-        },
-        {
-          "id": "note-gen-embedding",
-          "model": "BAAI/bge-m3",
-          "modelType": "embedding"
-        },
-        {
-          "id": "note-gen-vlm",
-          "model": "THUDM/GLM-4.1V-9B-Thinking",
-          "modelType": "chat"
-        }
-      ]
-    },
-    "fetchedAt": "2026-06-13T15:25:34.813Z",
-    "versionCode": 102,
-    "versionName": "1.0.2"
-  },
-  "markDescGen": false,
-  "enableImageRecognition": true,
-  "placeholderPrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
-  "shotcut-text": "Control+Shift+T",
-  "primaryImageMethod": "ocr",
-  "recordTextSize": "sm",
-  "audioModel": "",
-  "primaryModel": "note-gen-chat",
-  "autoUpdate": true,
-  "showEditorUndoRedo": true,
-  "recordViewMode": "list",
   "previewTheme": "github",
-  "giteaCustomSyncRepo": "",
+  "inspirationModel": "note-gen-chat",
+  "toolbarState": true,
+  "placeholderModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "currentAi": "chatgpt",
   "promptList": [
     {
       "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
@@ -306,110 +412,8 @@
       "title": "写作助手"
     }
   ],
-  "condenseModel": "note-gen-chat",
-  "condenseMaxLength": 100,
-  "gitlabInstanceType": "gitlab.com",
-  "baseURL-chatgpt": "https://api.uniapi.io",
-  "customThemeColors": {
-    "dark": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    },
-    "light": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    }
-  },
-  "giteeCustomSyncRepo": "",
-  "currentAi": "chatgpt",
-  "toolbarState": true,
-  "gitlabCustomUrl": "",
-  "tesseractList": "eng,chi_sim",
-  "githubCustomSyncRepo": "",
-  "window-pin": "Control+Shift+P",
-  "screenshotShortcut": "CommandOrControl+Shift+S",
-  "embeddingModel": "note-gen-embedding",
-  "model-chatgpt": "gpt-4o-mini",
-  "inspirationModel": "note-gen-chat",
-  "activeFilePath": "三体二/宣发肃降",
-  "githubImageUsername": "jia707409741",
-  "markDescPrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
-  "leftSidebarTab": "notes",
-  "chatLanguage": "中文",
-  "topP": 0.1,
-  "useImageRepo": true,
-  "shotcut-screenshot": "Control+Shift+S",
-  "translatePrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
-  "giteaUsername": "",
-  "baseURL": "https://api.siliconflow.cn/v1/",
-  "baseURL-moonshot": "https://api.moonshot.cn/v1",
-  "autoPullOnSwitch": true,
-  "completionModel": "note-gen-chat",
-  "aiType": "b417cdfb-37cb-444a-a563-55906a31cfc4",
-  "chatToolbarConfigPc": [
-    {
-      "enabled": true,
-      "id": "modelSelect",
-      "order": 0
-    },
-    {
-      "enabled": true,
-      "id": "promptSelect",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "mcpButton",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "ragSwitch",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "clipboardMonitor",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "newChat",
-      "order": 5
-    }
-  ],
-  "gitlabCustomSyncRepo": "",
-  "githubUsername": "jia707409741",
-  "autoPullOnOpen": true,
-  "temperature": 0.7,
+  "githubCustomImageRepo": "",
+  "baseURL-deepseek": "https://api.deepseek.com",
   "editorShortcuts": [
     {
       "id": "undo",
@@ -608,13 +612,12 @@
       "value": "Mod+Alt+-"
     }
   ],
-  "commitModel": "note-gen-chat",
-  "textToSpeechMode": "auto",
-  "baseURL-chatanywhere": "https://api.chatanywhere.tech/v1",
-  "isVectorDbEnabled": false,
+  "placeholderPrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "markDescGen": false,
   "enableCondense": true,
-  "currentTagId": 1,
-  "codeTheme": "github",
-  "version": "0.29.0",
-  "translateModel": "b417cdfb-37cb-444a-a563-55906a31cfc4"
+  "markDescPrimaryModel": "b417cdfb-37cb-444a-a563-55906a31cfc4",
+  "condenseModel": "note-gen-chat",
+  "temperature": 0.7,
+  "leftSidebarTab": "files",
+  "autoUpdate": true
 }
